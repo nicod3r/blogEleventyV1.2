@@ -1,6 +1,12 @@
 ---
-title: Primer post
+title: tercer Post
 description: Primer post
 fecha: 25 de junio de 2024
 ---
-# primer post
+
+# tercer post
+código
+
+```
+codigo=0
+```

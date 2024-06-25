@@ -11,8 +11,12 @@ title: Layout post
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
+    
     {% include "header.njk" %}
+    <main>
     {{ content | safe }}
+    </main>
      {% include "footer.njk" %}
+     
   </body>
 </html>

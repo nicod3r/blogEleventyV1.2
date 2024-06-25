@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #2e2e2e; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+header {
+    background-color: #1f1f1f; /* Fondo del header ligeramente más oscuro */
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #00b7ff; /* Color del título */
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espacio entre el título y la barra de navegación */
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    color: #e0e0e0; /* Color de los enlaces de navegación */
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 60px; /* Añadir espacio para el footer */
+}
+
+article {
+    background-color: #3b3b3b; /* Fondo de los artículos */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+a {
+    color: #00b7ff; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #888;
+}
+
+footer p {
+    margin: 0;
+}

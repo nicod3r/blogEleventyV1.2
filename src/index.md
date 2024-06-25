@@ -15,5 +15,6 @@ Y en el segundo parrafo agrego {{ title }} lo que considero correspondiente.
 
 - [{{post.data.title}}]({{post.url}})
 {{post.data.description}}
+{{post.data.fecha}}
 
 {% endfor %}
