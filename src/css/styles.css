@@ -16,7 +16,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 1.5em;
-    color: #00b7ff; /* Color del título */
+    color: #324e5a; /* Color del título */
 }
 
 .menu {
@@ -59,6 +59,8 @@ article {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px; /* Bordes redondeados */
+    font-size: 26px; /* Tamaño base del texto */
+
 }
 
 article h2 {
@@ -66,8 +68,13 @@ article h2 {
 }
 
 a {
-    color: #00b7ff; /* Color de los enlaces */
+    color: #25a5b4; /* Color de los enlaces */
     text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px; /* Tamaño base del texto */
+}
+small {
+    font-size: 5 px; /* Tamaño base del texto */
 }
 
 a:hover {
