@@ -1,8 +1,8 @@
 ---
-title: lista de post
+title: Lista de posts
 layout: post.njk
 ---
-{{ title }}
+# {{ title }}
 
 {% for post in collections.posts %}
 
